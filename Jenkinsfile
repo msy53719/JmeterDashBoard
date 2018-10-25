@@ -30,12 +30,12 @@ pipeline {
               allowMissing: false,
               alwaysLinkToLastBuild: false,
               keepAll: true,
-              reportDir: './test_report/',
-              reportFiles: 'Test.html',
+              reportDir: './DashBoardReport/',
+              reportFiles: 'index.html',
               reportName: 'Html Report'
             ]
             
-        emailext attachLog: true, body: '测试报告地址：\n  ${BUILD_URL}/Html_20Report/Test.html', compressLog: true, subject: '测试报告地址', to: '479979298@qq.com'
+        emailext attachLog: true, body: '测试报告地址：\n  ${BUILD_URL}/DashBoardReport/index.html', compressLog: true, subject: '测试报告地址', to: '479979298@qq.com'
             
            
         }

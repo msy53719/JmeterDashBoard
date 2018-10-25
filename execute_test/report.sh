@@ -1,1 +1,1 @@
-tar -cvzf test-report.tar.gz ./test_report/
+tar -cvzf test-report.tar.gz ./DashBoardReport/
